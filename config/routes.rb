@@ -1,4 +1,4 @@
-Rails.application.routes.draw do
+Rails.app
   root 'produtos#index'
   resources :produtos
 end
